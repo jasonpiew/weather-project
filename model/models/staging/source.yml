@@ -1,0 +1,9 @@
+version: 2
+##add your bigquery sources
+sources:
+  - name: weather_source
+    schema : 'insert database schema'
+    database: 'insert database'
+    tables:
+      - name: 'instert table name'
+# do refer these source from the table-id on your python script
